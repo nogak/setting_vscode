@@ -18,31 +18,30 @@
     {
         "key": "Ctrl+i",
         "command": "cursorUp",
-        "when": "editorTextFocus"
     },
     {
         "key": "Ctrl+j",
         "command": "cursorLeft",
-        "when": "editorTextFocus"
     },
     {
         "key": "Ctrl+k",
         "command": "cursorDown",
-        "when": "editorTextFocus"
     },
     {
         "key": "Ctrl+l",
         "command": "cursorRight",
-        "when": "editorTextFocus"
+    },
+    {
+        "key": "Ctrl+p",
+        "command": "deleteLeft",
     },
     {
         "key": "Ctrl+o",
         "command": "deleteLeft",
-        "when": "editorTextFocus"
     },
     {
         "key": "ctrl+n",
-        "command": "editor.action.commentLine",
+        "command": "editor.action.deleteLines",
         "when": "editorTextFocus && !editorReadonly"
     },
     {
@@ -83,12 +82,12 @@
     },
     {
         "key": "ctrl+e",
-        "command": "cursorHome",
+        "command": "cursorEnd",
         "when": "textInputFocus"
     },
     {
         "key": "ctrl+shift+e",
-        "command": "cursorHomeSelect",
+        "command": "cursorEndSelect",
         "when": "textInputFocus"
     },
     {
@@ -100,5 +99,20 @@
         "key": "ctrl+shift+a",
         "command": "-editor.action.blockComment",
         "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+i",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+k",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "acceptSelectedSuggestionOnEnter",
+        "when": "acceptSuggestionOnEnter && editorTextFocus && suggestWidgetVisible && suggestionMakesTextEdit"
     }
 ]
