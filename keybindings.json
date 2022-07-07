@@ -1,12 +1,12 @@
 // Place your key bindings in this file to override the defaults
 [
     {
-        "key": "ctrl+h",
+        "key": "ctrl+i",
         "command": "workbench.action.terminal.focus",
         "when": "editorTextFocus"
     },
     {
-        "key": "ctrl+h",
+        "key": "ctrl+i",
         "command": "workbench.action.togglePanel",
         "when": "terminalFocus"
     },
@@ -16,15 +16,15 @@
         "when": "editorTextFocus"
     },
     {
-        "key": "Ctrl+i",
+        "key": "Ctrl+k",
         "command": "cursorUp",
     },
     {
-        "key": "Ctrl+j",
+        "key": "Ctrl+h",
         "command": "cursorLeft",
     },
     {
-        "key": "Ctrl+k",
+        "key": "Ctrl+j",
         "command": "cursorDown",
     },
     {
