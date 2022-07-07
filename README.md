@@ -1,10 +1,12 @@
 # setting_vscode
-<Windows>
-mklink /d %AppData%\Code\User {vscode�ǥ��쥯�ȥ�ξ��}
 
-<Linux>
-ln -fnsv {vscode�ǥ��쥯�ȥ�ξ��} $HOME/.config/Code/User
+##<Windows>
+mklink /d %AppData%\Code\User {vscodeディレクトリの場所}
 
-Windows %APPDATA%\Code\User\settings.json
-Mac $HOME/Library/Application Support/Code/User/settings.json
-Linux $HOME/.config/Code/User/settings.json
+##<Linux>
+ln -fnsv {vscodeディレクトリの場所} $HOME/.config/Code/User
+
+##jsonファイルのパス
+*Windows %APPDATA%\Code\User\settings.json
+*ac $HOME/Library/Application Support/Code/User/settings.json
+*inux $HOME/.config/Code/User/settings.json
