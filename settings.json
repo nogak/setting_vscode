@@ -5,7 +5,7 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 
     "arduino.path": "/home/kazu/Downloads/installer/arduino-1.8.10",
-    "editor.minimap.enabled": false,>
+    "editor.minimap.enabled": false,
 
     "[python]": {
         "editor.tabSize": 4
